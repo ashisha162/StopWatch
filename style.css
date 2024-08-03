@@ -1,0 +1,52 @@
+body
+{
+    background: #e3cade;
+    cursor: pointer;
+}
+.stopwatch
+
+{
+
+     width: 90%;
+     max-width: 600px;
+     background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ;
+     background-image: url(image/background.jpg);
+    background-size: cover;
+    text-align: center;
+    /* align-items: center; */
+    padding: 40px 0;
+    color: #fff auto 0;
+    margin: 200px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
+    /* box-sizing: border-box; */
+}
+
+.stopwatch h1
+{
+    margin-top: 60px;
+    font-size: 64px;
+    font-weight: 300; 
+}
+.buttons
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+
+}
+
+.buttons img
+{
+    height: 80px;
+    border: 10px;
+    border-radius: 50%;
+    margin: 12px;
+ 
+}
+
+.buttons :nth-child(2)
+{
+    height: 120px;
+    width: 120px;
+}
